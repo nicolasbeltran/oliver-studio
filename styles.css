@@ -1,0 +1,146 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+body {
+
+    background-image: url(images/0FondoAltaCalidad.jpg);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+
+    background-position: top left;
+
+}
+
+
+
+ img{   
+
+    position: absolute;
+
+    display: block;
+
+}
+
+
+
+#menu{
+
+	width: 100%;
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+}
+
+#quienes{
+
+	 overflow:hidden;
+
+}
+
+.quienes{
+
+	width: 85%;
+
+    right: 0;
+
+}
+
+
+
+.proceso{
+
+	width: 85%;
+
+    left: 0;
+
+}
+
+
+
+.tapa{
+
+	transition: transform 1s;
+
+	opacity: 1;
+
+}
+
+
+
+
+
+#equipos{
+
+	width: 100%;
+
+	position: absolute;
+
+}
+
+
+
+#imgEquipos img{
+
+	width: 24%;
+
+	position: absolute;
+
+	left: 69%;
+
+	display: none;
+
+	transition: left 1s;
+
+	border: solid 10px #180103;
+
+	border-radius: 15px;
+
+}
+
+
+
+#imgEquipos img:first-child{
+
+	left: 65%;
+
+}
+
+
+
+#ubicacion{
+
+	width: 100%;
+
+	position: absolute;
+
+	bottom: 0;
+
+}
+
+
+
+#mapa{
+
+    position: absolute;
+
+    left: 50%;
+
+	width: 41%;
+
+}
+
+
+
